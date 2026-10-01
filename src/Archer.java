@@ -11,7 +11,7 @@ public class Archer extends GameCharacter{
             throw new IllegalStateException(getName() + " cannot attack because they're defeated.");
 
         if (!target.isAlive())
-            throw new IllegalStateException(getName() + " is already defeated.");
+            throw new IllegalStateException(target.getName() + " is already defeated.");
 
         System.out.println(getName() + " lets an arrow fly at " + target.getName() + "!");
         target.takeDamage(getAttackPower());

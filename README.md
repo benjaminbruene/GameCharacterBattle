@@ -35,8 +35,8 @@ Each subclass has its own attack behavior while still using the shared propertie
 ## How to Run
 
 1. Open the project in IntelliJ IDEA.
-2. Open `Main.java`.
-3. Run the `Main` class.
+2. Open `EpicBattle.java`.
+3. Run the `EpicBattle` class.
 4. View the battle output in the Run console.
 
 ## Screenshot
